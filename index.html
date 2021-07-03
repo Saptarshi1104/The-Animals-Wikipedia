@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>The Animals Wikipedia</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <center>
+    <h1 style="color: green;">THE UNIQUE ANIMALS WIKIPEDIA</h1>
+    <p>In this website you can search for the details of many unique animals and ever increasing!</p>
+    <marquee style="background-color: beige;">Here you can see only unique animals, for common click the below button</marquee>
+    <button class="btn btn-info">See Common Animals</button>
+    <input id="animal_search" class="form-control" placeholder="Search Animals">
+    <button onclick="search()" class="btn btn-primary">Search</button>
+    <h4 class="text-danger"><b>WARNING: ALWAYS TYPE THE ANIMAL NAME IN INITIAL CAPS, FOR EXAMPLE TYPE Blue Whale AND NOT SOMETHING LIKE blue whale or BLUE WHALE</b></h4> 
+    <h4 class="text-danger"><b>IN CASE YOU DON'T FIND THE REQUIRED ANIMAL, YOU MAY CHECK OUR LIST OF ANIMALS BY CLICKING ON THE BELOW BUTTON</b></h4>
+    <button class="btn btn-info" onclick="lister()">Check List</button>
+    <div>
+    <h2>Today Trending!</h2>
+    <button onclick="angler()" class="btn btn-success">ANGLER FISH</button>
+    <br>
+    <button onclick="tardigrade()" class="btn btn-info">TARDIGRADE</button>
+    <br>
+    <button onclick="thorny()" class="btn btn-danger">THORNY DEVIL</button>
+    <br>
+    <button onclick="tamarin()" class="btn btn-primary">TAMARIN</button>
+    </div>
+    </center>
+    </body>
+    <h1 id="changer" class="text-capitalize"></h1>
+    </html>

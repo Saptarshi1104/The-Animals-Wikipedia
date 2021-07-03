@@ -1,0 +1,13 @@
+body{
+text-align: center;
+background-image: linear-gradient(to right top, #39a0f1, #2501d7, #1799c1, #8a73aa, #099494);
+}
+div{
+background-color: aqua;
+border-radius: 25px;
+width: 500px;
+}
+img{
+height: 500px;
+width: 500px;
+}
