@@ -9,26 +9,42 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <body style="background-size: cover; background-image: url(https://www.euractiv.com/wp-content/uploads/sites/2/2019/05/Autumn_forest-800x450.jpg);">
     <center>
-    <h1 style="color: green;">THE UNIQUE ANIMALS WIKIPEDIA</h1>
-    <p>In this website you can search for the details of many unique animals and ever increasing!</p>
-    <marquee style="background-color: beige;">Here you can see only unique animals, for common click the below button</marquee>
-    <button class="btn btn-info">See Common Animals</button>
+        <div style="background-color: blue;">
+    <h1 style="color: white;">THE UNIQUE ANIMALS WIKIPEDIA
+    <img style="width: 50px; height: 50px;" src="TAWian Earth.png"/>
+    </h1>
+    </div>
+    <div style="background-color: yellow;">
+    <p style="color: black;">In this website you can search for the details of many unique animals and ever increasing!</p>
+    </div>
+    <marquee style="background-color: beige;">Here you can see only unique animals</marquee>
     <input id="animal_search" class="form-control" placeholder="Search Animals">
     <button onclick="search()" class="btn btn-primary">Search</button>
-    <h4 class="text-danger"><b>WARNING: ALWAYS TYPE THE ANIMAL NAME IN INITIAL CAPS, FOR EXAMPLE TYPE Blue Whale AND NOT SOMETHING LIKE blue whale or BLUE WHALE</b></h4> 
-    <h4 class="text-danger"><b>IN CASE YOU DON'T FIND THE REQUIRED ANIMAL, YOU MAY CHECK OUR LIST OF ANIMALS BY CLICKING ON THE BELOW BUTTON</b></h4>
+    <div style="background-color: whitesmoke; width: 1500px;">
+    <h4 style="inline-size: auto;" class="text-danger"><b>WARNING: ALWAYS TYPE THE ANIMAL NAME IN PROPER LETTERS, LIKE TYPE Anglerfish OR anglerfish AND YOU MAY ALSO TYPE ANGLERFISH, BUT, DO NOT TYPE SOMETHING LIKE AnGlerFiSh</b></h4> 
+    <h4 style="inline-size: auto;" class="text-danger"><b>IN CASE YOU DON'T FIND THE REQUIRED ANIMAL, YOU MAY CHECK OUR LIST OF ANIMALS BY CLICKING ON THE BELOW BUTTON</b></h4>
+    </div>
+    <br>
     <button class="btn btn-info" onclick="lister()">Check List</button>
-    <div>
-    <h2>Today Trending!</h2>
-    <button onclick="angler()" class="btn btn-success">ANGLER FISH</button>
+    <div style="background-image: url(https://cdn2.wanderlust.co.uk/media/1037/forest-web.jpg?anchor=center&mode=crop&width=1200&height=0&rnd=132605629110000000)";>
+    <h2 style="color: white;">Today Trending!</h2>
+    <button onclick="batfish()" class="btn btn-success">RED-LIPPED BATFISH</button>
     <br>
-    <button onclick="tardigrade()" class="btn btn-info">TARDIGRADE</button>
+    <button onclick="pant()" class="btn btn-info">EUSPINOLIA MILITARIS</button>
     <br>
-    <button onclick="thorny()" class="btn btn-danger">THORNY DEVIL</button>
+    <button onclick="duiker()" class="btn btn-danger">ZEBRA DUIKER</button>
     <br>
     <button onclick="tamarin()" class="btn btn-primary">TAMARIN</button>
+    <br>
+    <button onclick="lophorina()" class="btn">LOPHORINA</button>
+    <br>
+    <button onclick="tarsier()" class="btn btn-warning">TARSIER</button>
+    <br>
+    <button onclick="tufted()" class="btn btn-default">TUFTED DEER</button>
+    <br>
+    <button onclick="okapi()" class="btn btn-link" style="background-color: orange; border-radius: 5px;">OKAPI</button>
     </div>
     </center>
     </body>
