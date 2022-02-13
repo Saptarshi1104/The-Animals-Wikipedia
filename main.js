@@ -4,8 +4,11 @@ window.location = "angler.html";
 function tardigrade(){
 window.location = "tardi.html";
 }
+function shoebill(){
+window.location = "shoebill.html";
+}
 function search(){
-  animal_name = document.getElementById("animal_search").value;
+animal_name = document.getElementById("animal_search").value;
 if(animal_name == "Anglerfish"){
 window.location = "angler.html";
 }
@@ -411,6 +414,99 @@ if(animal_name == "euspaniola militaris"){
   if(animal_name == "EUSPANIOLA MILITARIS"){
     window.location = "p_ant.html";
     }
+    if(animal_name == "Shoebill"){
+    window.location = "shoebill.html";
+    }
+    if(animal_name == "shoebill"){
+      window.location = "shoebill.html";
+    }
+    if(animal_name == "SHOEBILL"){
+      window.location = "shoebill.html";
+    }
+    if(animal_name == "Shoe Bill"){
+      window.location = "shoebill.html";
+    }
+    if(animal_name == "SHOE BILL"){
+      window.location = "shoebill.html";
+    }
+    if(animal_name == "shoe bill"){
+      window.location = "shoebill.html";
+    }
+    if(animal_name == "Glass Frog"){
+    window.location = "gfrog.html";
+    }
+    if(animal_name == "Glass frog"){
+      window.location = "gfrog.html";
+    }
+    if(animal_name == "Glass FROG"){
+      window.location = "gfrog.html";
+    }
+    if(animal_name == "Glass Frog"){
+      window.location = "gfrog.html";
+    }
+    if(animal_name == "GLASS FROG"){
+      window.location = "gfrog.html";
+    }
+    if(animal_name == "glass frog"){
+      window.location = "gfrog.html";
+    }
+    if(animal_name == "glass Frog"){
+      window.location = "gfrog.html";
+    }
+    if(animal_name == "GLASS Frog"){
+      window.location = "gfrog.html";
+    }
+    if(animal_name == "satanic leaf-tailed gecko"){
+      window.location = "slt-gecko.html";
+    }
+    if(animal_name == "satanic leaf tailed gecko"){
+      window.location = "slt-gecko.html";
+    }
+    if(animal_name == "Satanic leaf-tailed gecko"){
+      window.location = "slt-gecko.html";
+    }
+    if(animal_name == "Satanic leaf tailed gecko"){
+      window.location = "slt-gecko.html";
+    }
+    if(animal_name == "SATANIC LEAF-TAILED GECKO"){
+      window.location = "slt-gecko.html";
+    }
+    if(animal_name == "SATANIC LEAF TAILED GECKO"){
+      window.location = "slt-gecko.html";
+    }
+    if(animal_name == "Parrot Fish"){
+      window.location = "pfish.html";
+    }
+    if(animal_name == "Parrot fish"){
+      window.location = "pfish.html";
+    }
+    if(animal_name == "Parrot FISH"){
+      window.location = "pfish.html";
+    }
+    if(animal_name == "parrot fish"){
+      window.location = "pfish.html";
+    }
+    if(animal_name == "PARROT FISH"){
+      window.location = "pfish.html";
+    }
+    if(animal_name == "parrot Fish"){
+      window.location = "pfish.html";
+    }
+    if(animal_name == "parrot FISH"){
+      window.location = "pfish.html";
+    }
+    if(animal_name == "Vietnamese Mossy Frog"){
+      window.location = "vmfrog.html";
+    }
+    if(animal_name == "vietnamese mossy frog"){
+      window.location = "vmfrog.html";
+    }
+    if(animal_name == "VIETNAMESE MOSSY FROG"){
+      window.location = "vmfrog.html";
+    }
+    if(animal_name == "Vietnamese mossy frog"){
+      window.location = "vmfrog.html";
+    }
 }
 function lister(){
 window.location = "list.html";
@@ -471,4 +567,16 @@ window.location = "batfish.html";
 }
 function pant(){
 window.location = "p_ant.html";
+}
+function gfrog(){
+window.location = "gfrog.html";
+}
+function sltgecko(){
+window.location = "slt-gecko.html";
+}
+function pfish(){
+window.location = "pfish.html";
+}
+function vmf(){
+window.location = "vmfrog.html";
 }
