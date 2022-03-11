@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>The Animals Wikipedia</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="xmain.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <center>
+            <h1 style="color: blueviolet;">THE COMMON ANIMALS WIKIPEDIA</h1>
+            <p>In this website you can search for the details of many common animals and ever increasing!</p>
+            <marquee style="background-color: beige;">Here you can see only common animals</marquee>
+            
+            <input id="c_animal_search" class="form-control" placeholder="Search Animals">
+            <button onclick="c_search()" class="btn btn-primary">Search</button>
+            <h4 class="text-danger"><b>WARNING: ALWAYS TYPE THE ANIMAL NAME IN INITIAL CAPS, FOR EXAMPLE TYPE Blue Whale AND NOT SOMETHING LIKE blue whale or BLUE WHALE</b></h4> 
+            <h4 class="text-danger"><b>IN CASE YOU DON'T FIND THE REQUIRED ANIMAL, YOU MAY CHECK OUR LIST OF ANIMALS BY CLICKING ON THE BELOW BUTTON OR REQUEST US TO ADD IT BY SENDING THE MESSAGE TO US.YOU CAN DO IY BY TYPING THE ANIMAL NAME IN THE INPUT BOX AND CLICKING THE THE SEND REQUEST BUTTON</b></h4>
+            <input class="form-control" type="text" placeholder="Request Animal Name">
+            <button class="glyphicon glyphicon-send btn" style="background-color: red;"><b> Send Request</b></button>
+            <br>
+            <button class="btn btn-info" onclick="c_lister()">Check List</button>
+            <div style="background-color: mediumspringgreen; width: 250px;">
+            <h2>Today Trending!</h2>
+            <button class="btn btn-success" onclick="goose()">Goose</button>
+            <br>
+            <button class="btn btn-danger" onclick="mouse()">Mouse</button>
+            <br>
+            <button class="btn btn-info" onclick="cat()">Cat</button>
+            <br>
+            <button class="btn btn-warning" onclick="donkey()">Donkey</button>
+            <br>
+            <button class="btn btn-primary" onclick="gorilla()">Gorilla</button>
+            </div>
+            
+        </center>
+    </body>
+</html>
